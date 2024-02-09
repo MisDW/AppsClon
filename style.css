@@ -108,3 +108,20 @@
 .contenedor_archivo:hover{
     background-color:transparent;
 }
+
+.icon_flotante{
+    background-color:var(--purple);
+    color:var(--grey_light);
+    width:30px;
+    height:30px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:18px;
+    padding:15px;
+    border-radius:100%;
+    box-shadow:0px 0px 20px rgba(0, 0, 0, 0.292);
+    position:fixed;
+    bottom:20px;
+    right:20px;
+}
