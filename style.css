@@ -1,0 +1,110 @@
+:root{
+    --oscuro: #292929;
+    --dark:#141414;
+    --grey:#878787;
+    --grey_light:#ededed;
+    --white:#FFFFFF;
+    --purple:#4F52B3;
+}
+
+*{
+    padding:0px;
+    margin:0px;
+    font-family:calibri;
+}
+
+.page{
+    height:100vh;
+    width:100%;
+    background-color:var(--oscuro);
+    user-select:none;
+}
+
+.barraSuperior{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    background-color:var(--dark);
+    padding:20px 10px;
+    color:var(--grey_light);
+}
+
+.obj_barra{
+    display:grid;
+    align-items:center;
+}
+
+.icono_flecha{
+    text-align:left;
+    font-size:18px;
+}
+
+.nombre_materia{
+    font-size:18px;
+    text-align:center;
+    font-weight:bold;
+}
+
+.icono_tresPuntos{
+    text-align:right;
+    font-size:18px;
+}
+
+.aviso_tarea{
+    background-color:var(--grey);
+    display:grid;
+    grid-template-columns:11fr 1fr;
+    padding:15px 10px;
+    color:var(--grey_light);
+    font-size:15px;
+    align-items:center;
+}
+
+.aviso_tarea .icon{
+    font-size:20px;
+}
+
+.contenedor_tarea{
+    padding:15px;
+    color:var(--grey_light);
+}
+
+.fecha_tarea{
+    color: var(--grey);
+    display:grid;
+    gap:5px;
+    margin:10px 0px;
+}
+
+.contenedor_datos_tarea{
+    display:grid;
+    gap:20px;
+}
+
+.info_tarea{
+    display:grid;
+    gap:0px;
+    font-size:15px;
+}
+
+.info_tarea .text{
+    color:var(--grey);
+}
+
+.info_tarea .content{
+    color:var(--grey_light);
+    font-size:18px;
+}
+
+.contenedor_archivo{
+    padding:5px 15px;
+    border:1px solid var(--grey_light);
+    display:flex;
+    gap:10px;
+    border-radius:5px;
+    margin:10px 0px;
+    background-color:#414141;
+}
+
+.contenedor_archivo:hover{
+    background-color:transparent;
+}
